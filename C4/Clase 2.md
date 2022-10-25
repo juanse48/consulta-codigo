@@ -57,12 +57,12 @@
             `const express = require("express");`
         - Definimos una variable *app* para darle congruencia a la existencia de el archivo
             `const app = express();`
-        En JS tenemos que preparar el archivo para poder utilizar los recursos que contiene dentro de otros archivos(desde otro archivo podemos llamar lo con `require = ("app")`)
+        En JS tenemos que preparar el archivo para poder utilizar los recursos que contiene dentro de otros archivos(desde otro archivo podemos llamar lo con `require = ("./app")`)
             `module.exports = app`
         
     - server.js -
         - Creamos una constante llamada *app* y llamamos el archivo
-            `const app = require("app")`
+            `const app = require("./app")`
     
     ** *Respirar dar una vuelta y volver a resolver problemas - Si le funciona a alguien a mi tambien me puede funcionar - Que a uno le de rabia no va a cambiar el echo que asi son las cosas* **
     
